@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="SwitchPro.Tests" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HidSharp" Version="2.6.4" />
+    <PackageReference Include="Nefarius.Drivers.HidHide" Version="3.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SwitchPro.Protocol\SwitchPro.Protocol.csproj" />
+    <ProjectReference Include="..\SwitchPro.Mapper\SwitchPro.Mapper.csproj" />
+    <ProjectReference Include="..\SwitchPro.ViGEm\SwitchPro.ViGEm.csproj" />
+  </ItemGroup>
+
+</Project>
