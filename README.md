@@ -13,8 +13,15 @@ Nintendo Switch Pro 手柄的 Windows 驱动与控制软件 —— 通过 **USB 
 
 ---
 
+## 界面预览
+
+| 控制器配置 | 设备 |
+|---|---|
+| ![控制器配置页](docs/images/mainwindow-zh.png) | ![设备页](docs/images/devices-zh.png) |
+
 ## 目录
 
+- [界面预览](#界面预览)
 - [功能特性](#功能特性)
 - [安装](#安装)
 - [快速开始](#快速开始)

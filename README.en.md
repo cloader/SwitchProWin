@@ -13,8 +13,15 @@ map it to a **virtual Xbox 360 controller**, and play any Windows game with game
 
 ---
 
+## Screenshots
+
+| Controller tab | Devices tab |
+|---|---|
+| ![Controller tab](docs/images/mainwindow-en.png) | ![Devices tab](docs/images/devices-en.png) |
+
 ## Table of Contents
 
+- [Screenshots](#screenshots)
 - [Features](#features)
 - [Installation](#installation)
 - [Quick Start](#quick-start)
