@@ -7,7 +7,7 @@ map it to a **virtual Xbox 360 controller**, and play any Windows game with game
 
 `USB / Bluetooth` · `Joy-Con` · `Gyro Aiming` · `Flick Stick` · `Multiple Profiles` · `English / 中文`
 
-[中文说明](README.md) · [Design Notes](方案.md)
+[中文说明](README.md)
 
 </div>
 

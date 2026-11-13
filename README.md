@@ -7,7 +7,7 @@ Nintendo Switch Pro 手柄的 Windows 驱动与控制软件 —— 通过 **USB 
 
 `USB / 蓝牙` · `Joy-Con` · `体感瞄准` · `Flick Stick` · `多配置文件` · `中英双语`
 
-[English](README.en.md) · [技术方案](方案.md)
+[English](README.en.md)
 
 </div>
 

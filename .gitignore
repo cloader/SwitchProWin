@@ -24,3 +24,6 @@ eden-master.zip
 
 # ZCode workspace metadata
 .zcode/
+
+# Internal design doc (local only)
+方案.md
