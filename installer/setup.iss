@@ -2,11 +2,11 @@
 ; 构建：发布 Release 后，将 src/SwitchProWin.App/bin/Release/net8.0-windows 发布目录
 ; 与本脚本放一起，用 ISCC.exe 编译。
 ; 依赖检测：ViGEmBus（必需，缺失时打开下载页）、HidHide（可选）。
-; 语言文件：Inno Setup 6.3+ 自带 compiler:Languages\ChineseSimplified.isl；
-;           更旧版本请从 jrsoftware.org/files/istrans/ 下载放到本目录并改用 "ChineseSimplified.isl"。
+; 语言文件：中文翻译已随仓库 vendor 于 Languages\ChineseSimplified.isl
+;           （取自 jrsoftware/issrc 官方 Unofficial 翻译），构建不依赖本机 Inno 语言包。
 
 #define AppName "SwitchProWin"
-#define AppVersion "1.0.0"
+#define AppVersion "1.1.0"
 #define AppPublisher "SwitchProWin Project"
 #define AppExeName "SwitchProWinApp.exe"
 
@@ -28,7 +28,7 @@ ShowLanguageDialog=no
 
 [Languages]
 Name: "en"; MessagesFile: "compiler:Default.isl"
-Name: "chs"; MessagesFile: "compiler:Languages\ChineseSimplified.isl"
+Name: "chs"; MessagesFile: "Languages\ChineseSimplified.isl"
 
 [Files]
 ; 先 dotnet publish -c Release -r win-x64 --self-contained false -o publish

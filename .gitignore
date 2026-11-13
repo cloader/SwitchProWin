@@ -27,3 +27,8 @@ eden-master.zip
 
 # Internal design doc (local only)
 方案.md
+
+# Installer build outputs
+installer/publish/
+installer/Output/
+installer/*.zip
