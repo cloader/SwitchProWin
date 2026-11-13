@@ -21,3 +21,6 @@ eden-master.zip
 .vs/
 .idea/
 *.swp
+
+# ZCode workspace metadata
+.zcode/
